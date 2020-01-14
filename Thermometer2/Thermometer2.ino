@@ -2,12 +2,12 @@ int tempPin = 0;
 //                BS E  D4 D5  D6  D7
 //LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 int index = 0;
-double breakTemp1 = 25.00;
-double breakTemp2 = 27.00;
+double breakTemp1 = 27.00;
+double breakTemp2 = 30.00;
 
 int state = 0;
 //                R  G  B
-int ledPorts[] = {2, 3, 4};
+int ledPorts[] = {3, 2, 4};
 
 
 int LED_RED = ledPorts[0];
@@ -54,16 +54,16 @@ void loop()
   float tempF = (tempC * 9.0) / 5.0 + 32.0; // Convert Celcius to Fahrenheit
 
   // Display Temperature in C
-  Serial.print(String(index) + "(AnalogRead): " + String(tempReading) + "\t");
-  Serial.println(String(index) + "(converted temp): " + String(tempC));
+  Serial.print(String(index) + "\t(analog): " + String(tempReading) + "\t");
+  Serial.println(String(index) + "(tempC): " + String(tempC));
 
-  /*
+  
   digitalWrite(LED_RED, indRed(tempC));
   digitalWrite(LED_GREEN, indGreen(tempC));
   digitalWrite(LED_BLUE, indBlue(tempC));
-  */
+  
 
-  Serial.println("Red: " + String(indRed(tempC)) + "\t Green: " + String(indGreen(tempC)) + "\t Blue: " + String(indBlue(tempC)));
+  Serial.println("\tRed: " + String(indRed(tempC)) + "\tGreen: " + String(indGreen(tempC)) + "\tBlue: " + String(indBlue(tempC)));
   /*
    * red < breakTemp1 <= green < breakTemp2 <= blue
     

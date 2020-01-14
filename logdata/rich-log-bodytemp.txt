@@ -1,0 +1,116 @@
+100	(analog): 635	100(tempC): 36.55
+	Red: 0	Green: 0	Blue: 1
+101	(analog): 634	101(tempC): 36.45
+	Red: 0	Green: 0	Blue: 1
+102	(analog): 635	102(tempC): 36.55
+	Red: 0	Green: 0	Blue: 1
+103	(analog): 635	103(tempC): 36.55
+	Red: 0	Green: 0	Blue: 1
+104	(analog): 634	104(tempC): 36.45
+	Red: 0	Green: 0	Blue: 1
+105	(analog): 634	105(tempC): 36.45
+	Red: 0	Green: 0	Blue: 1
+106	(analog): 634	106(tempC): 36.45
+	Red: 0	Green: 0	Blue: 1
+107	(analog): 633	107(tempC): 36.35
+	Red: 0	Green: 0	Blue: 1
+108	(analog): 633	108(tempC): 36.35
+	Red: 0	Green: 0	Blue: 1
+109	(analog): 0	109(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+110	(analog): 0	110(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+111	(analog): 0	111(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+112	(analog): 0	112(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+113	(analog): 0	113(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+114	(analog): 0	114(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+115	(analog): 0	115(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+116	(analog): 0	116(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+117	(analog): 0	117(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+118	(analog): 0	118(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+119	(analog): 0	119(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+120	(analog): 621	120(tempC): 35.15
+	Red: 0	Green: 0	Blue: 1
+121	(analog): 624	121(tempC): 35.45
+	Red: 0	Green: 0	Blue: 1
+122	(analog): 631	122(tempC): 36.15
+	Red: 0	Green: 0	Blue: 1
+123	(analog): 631	123(tempC): 36.15
+	Red: 0	Green: 0	Blue: 1
+124	(analog): 0	124(tempC): -273.15
+	Red: 1	Green: 0	Blue: 0
+125	(analog): 624	125(tempC): 35.45
+	Red: 0	Green: 0	Blue: 1
+126	(analog): 631	126(tempC): 36.15
+	Red: 0	Green: 0	Blue: 1
+127	(analog): 633	127(tempC): 36.35
+	Red: 0	Green: 0	Blue: 1
+128	(analog): 634	128(tempC): 36.45
+	Red: 0	Green: 0	Blue: 1
+129	(analog): 634	129(tempC): 36.45
+	Red: 0	Green: 0	Blue: 1
+130	(analog): 635	130(tempC): 36.55
+	Red: 0	Green: 0	Blue: 1
+131	(analog): 626	131(tempC): 35.65
+	Red: 0	Green: 0	Blue: 1
+132	(analog): 614	132(tempC): 34.46
+	Red: 0	Green: 0	Blue: 1
+133	(analog): 602	133(tempC): 33.30
+	Red: 0	Green: 0	Blue: 1
+134	(analog): 623	134(tempC): 35.35
+	Red: 0	Green: 0	Blue: 1
+135	(analog): 631	135(tempC): 36.15
+	Red: 0	Green: 0	Blue: 1
+136	(analog): 634	136(tempC): 36.45
+	Red: 0	Green: 0	Blue: 1
+137	(analog): 637	137(tempC): 36.75
+	Red: 0	Green: 0	Blue: 1
+138	(analog): 637	138(tempC): 36.75
+	Red: 0	Green: 0	Blue: 1
+139	(analog): 637	139(tempC): 36.75
+	Red: 0	Green: 0	Blue: 1
+140	(analog): 638	140(tempC): 36.85
+	Red: 0	Green: 0	Blue: 1
+141	(analog): 639	141(tempC): 36.96
+	Red: 0	Green: 0	Blue: 1
+142	(analog): 640	142(tempC): 37.06
+	Red: 0	Green: 0	Blue: 1
+143	(analog): 640	143(tempC): 37.06
+	Red: 0	Green: 0	Blue: 1
+144	(analog): 640	144(tempC): 37.06
+	Red: 0	Green: 0	Blue: 1
+145	(analog): 643	145(tempC): 37.36
+	Red: 0	Green: 0	Blue: 1
+146	(analog): 640	146(tempC): 37.06
+	Red: 0	Green: 0	Blue: 1
+147	(analog): 641	147(tempC): 37.16
+	Red: 0	Green: 0	Blue: 1
+148	(analog): 641	148(tempC): 37.16
+	Red: 0	Green: 0	Blue: 1
+149	(analog): 640	149(tempC): 37.06
+	Red: 0	Green: 0	Blue: 1
+150	(analog): 643	150(tempC): 37.36
+	Red: 0	Green: 0	Blue: 1
+151	(analog): 642	151(tempC): 37.26
+	Red: 0	Green: 0	Blue: 1
+152	(analog): 638	152(tempC): 36.85
+	Red: 0	Green: 0	Blue: 1
+153	(analog): 626	153(tempC): 35.65
+	Red: 0	Green: 0	Blue: 1
+154	(analog): 619	154(tempC): 34.95
+	Red: 0	Green: 0	Blue: 1
+155	(analog): 606	155(tempC): 33.68
+	Red: 0	Green: 0	Blue: 1
+156	(analog): 596	156(tempC): 32.72
+	Red: 0	Green: 0	Blue: 1
+157	(analog): 589	157(tempC): 32.05
+	Red: 0	Green:
