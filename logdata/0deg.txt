@@ -1,0 +1,133 @@
+T3 with 2 layers teflon
+T approxmiately 0
+Labquest said anything from -1 to -0.0
+So probably would be around -0.3
+252, 253
+
+T2 with Teflon Wrap
+T approximately 0.6
+564	(analog): 250	564(tempC): 1.04
+	Red: 1	Green: 0	Blue: 0
+565	(analog): 250	565(tempC): 1.04
+	Red: 1	Green: 0	Blue: 0
+566	(analog): 249	566(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+567	(analog): 249	567(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+568	(analog): 248	568(tempC): 0.84
+	Red: 1	Green: 0	Blue: 0
+569	(analog): 250	569(tempC): 1.04
+	Red: 1	Green: 0	Blue: 0
+570	(analog): 249	570(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+571	(analog): 247	571(tempC): 0.73
+	Red: 1	Green: 0	Blue: 0
+572	(analog): 249	572(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+573	(analog): 249	573(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+574	(analog): 251	574(tempC): 1.15
+	Red: 1	Green: 0	Blue: 0
+575	(analog): 251	575(tempC): 1.15
+	Red: 1	Green: 0	Blue: 0
+576	(analog): 248	576(tempC): 0.84
+	Red: 1	Green: 0	Blue: 0
+577	(analog): 248	577(tempC): 0.84
+	Red: 1	Green: 0	Blue: 0
+578	(analog): 250	578(tempC): 1.04
+	Red: 1	Green: 0	Blue: 0
+579	(analog): 249	579(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+580	(analog): 249	580(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+581	(analog): 249	581(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+582	(analog): 247	582(tempC): 0.73
+	Red: 1	Green: 0	Blue: 0
+583	(analog): 249	583(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+584	(analog): 250	584(tempC): 1.04
+	Red: 1	Green: 0	Blue: 0
+585	(analog): 248	585(tempC): 0.84
+	Red: 1	Green: 0	Blue: 0
+586	(analog): 248	586(tempC): 0.84
+	Red: 1	Green: 0	Blue: 0
+587	(analog): 249	587(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+588	(analog): 249	588(tempC): 0.94
+	Red: 1	Green: 0	Blue: 0
+589	(analog): 250	589(tempC): 1.04
+	Red: 1	Green: 0	Blue: 0
+
+T1 with Bag
+324	(analog): 268	324(tempC): 2.89
+	Red: 1	Green: 0	Blue: 0
+325	(analog): 267	325(tempC): 2.79
+	Red: 1	Green: 0	Blue: 0
+326	(analog): 266	326(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+327	(analog): 266	327(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+328	(analog): 265	328(tempC): 2.59
+	Red: 1	Green: 0	Blue: 0
+329	(analog): 266	329(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+330	(analog): 266	330(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+331	(analog): 266	331(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+332	(analog): 265	332(tempC): 2.59
+	Red: 1	Green: 0	Blue: 0
+333	(analog): 265	333(tempC): 2.59
+	Red: 1	Green: 0	Blue: 0
+334	(analog): 266	334(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+335	(analog): 265	335(tempC): 2.59
+	Red: 1	Green: 0	Blue: 0
+336	(analog): 266	336(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+337	(analog): 266	337(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+338	(analog): 266	338(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+339	(analog): 265	339(tempC): 2.59
+	Red: 1	Green: 0	Blue: 0
+340	(analog): 266	340(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+341	(analog): 265	341(tempC): 2.59
+	Red: 1	Green: 0	Blue: 0
+342	(analog): 267	342(tempC): 2.79
+	Red: 1	Green: 0	Blue: 0
+343	(analog): 266	343(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+344	(analog): 266	344(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+345	(analog): 266	345(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+346	(analog): 266	346(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+347	(analog): 267	347(tempC): 2.79
+	Red: 1	Green: 0	Blue: 0
+348	(analog): 266	348(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+349	(analog): 269	349(tempC): 2.99
+	Red: 1	Green: 0	Blue: 0
+350	(analog): 268	350(tempC): 2.89
+	Red: 1	Green: 0	Blue: 0
+351	(analog): 265	351(tempC): 2.59
+	Red: 1	Green: 0	Blue: 0
+352	(analog): 266	352(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+353	(analog): 266	353(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+354	(analog): 266	354(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+355	(analog): 266	355(tempC): 2.69
+	Red: 1	Green: 0	Blue: 0
+356	(analog): 268	356(tempC): 2.89
+	Red: 1	Green: 0	Blue: 0
+357	(analog): 264	357(tempC): 2.49
+	Red: 1	Green: 0	Blue: 0
+358	(analog): 264	358(tempC): 2.49
+	Red: 1	Green: 0	Blue: 0
+359	(analog): 265	359(tempC): 2.59

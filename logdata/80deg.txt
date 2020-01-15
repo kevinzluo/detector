@@ -1,0 +1,93 @@
+29	(analog): 900	29(tempC): 77.17
+	Red: 0	Green: 0	Blue: 1
+30	(analog): 898	30(tempC): 76.61
+	Red: 0	Green: 0	Blue: 1
+31	(analog): 909	31(tempC): 79.78
+	Red: 0	Green: 0	Blue: 1
+32	(analog): 907	32(tempC): 79.18
+	Red: 0	Green: 0	Blue: 1
+33	(analog): 905	33(tempC): 78.59
+	Red: 0	Green: 0	Blue: 1
+34	(analog): 908	34(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+35	(analog): 904	35(tempC): 78.30
+	Red: 0	Green: 0	Blue: 1
+36	(analog): 885	36(tempC): 73.22
+	Red: 0	Green: 0	Blue: 1
+37	(analog): 908	37(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+38	(analog): 902	38(tempC): 77.73
+	Red: 0	Green: 0	Blue: 1
+39	(analog): 902	39(tempC): 77.73
+	Red: 0	Green: 0	Blue: 1
+40	(analog): 897	40(tempC): 76.34
+	Red: 0	Green: 0	Blue: 1
+41	(analog): 898	41(tempC): 76.61
+	Red: 0	Green: 0	Blue: 1
+42	(analog): 895	42(tempC): 75.80
+	Red: 0	Green: 0	Blue: 1
+43	(analog): 899	43(tempC): 76.89
+	Red: 0	Green: 0	Blue: 1
+44	(analog): 896	44(tempC): 76.07
+	Red: 0	Green: 0	Blue: 1
+45	(analog): 895	45(tempC): 75.80
+	Red: 0	Green: 0	Blue: 1
+46	(analog): 894	46(tempC): 75.53
+	Red: 0	Green: 0	Blue: 1
+47	(analog): 896	47(tempC): 76.07
+	Red: 0	Green: 0	Blue: 1
+48	(analog): 905	48(tempC): 78.59
+	Red: 0	Green: 0	Blue: 1
+49	(analog): 905	49(tempC): 78.59
+	Red: 0	Green: 0	Blue: 1
+50	(analog): 908	50(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+51	(analog): 906	51(tempC): 78.88
+	Red: 0	Green: 0	Blue: 1
+52	(analog): 907	52(tempC): 79.18
+	Red: 0	Green: 0	Blue: 1
+53	(analog): 906	53(tempC): 78.88
+	Red: 0	Green: 0	Blue: 1
+54	(analog): 909	54(tempC): 79.78
+	Red: 0	Green: 0	Blue: 1
+55	(analog): 908	55(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+56	(analog): 908	56(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+57	(analog): 909	57(tempC): 79.78
+	Red: 0	Green: 0	Blue: 1
+58	(analog): 909	58(tempC): 79.78
+	Red: 0	Green: 0	Blue: 1
+59	(analog): 908	59(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+60	(analog): 908	60(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+61	(analog): 907	61(tempC): 79.18
+	Red: 0	Green: 0	Blue: 1
+62	(analog): 908	62(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+63	(analog): 912	63(tempC): 80.70
+	Red: 0	Green: 0	Blue: 1
+64	(analog): 908	64(tempC): 79.48
+	Red: 0	Green: 0	Blue: 1
+65	(analog): 907	65(tempC): 79.18
+	Red: 0	Green: 0	Blue: 1
+66	(analog): 909	66(tempC): 79.78
+	Red: 0	Green: 0	Blue: 1
+67	(analog): 905	67(tempC): 78.59
+	Red: 0	Green: 0	Blue: 1
+68	(analog): 904	68(tempC): 78.30
+	Red: 0	Green: 0	Blue: 1
+69	(analog): 904	69(tempC): 78.30
+	Red: 0	Green: 0	Blue: 1
+70	(analog): 902	70(tempC): 77.73
+	Red: 0	Green: 0	Blue: 1
+71	(analog): 902	71(tempC): 77.73
+	Red: 0	Green: 0	Blue: 1
+72	(analog): 901	72(tempC): 77.45
+	Red: 0	Green: 0	Blue: 1
+73	(analog): 900	73(tempC): 77.17
+	Red: 0	Green: 0	Blue: 1
+74	(analog): 900	74(tempC): 77.17
+	Red: 0	Green: 0	Blue: 1
+75	(analog): 898	75(tempC): 76.61
