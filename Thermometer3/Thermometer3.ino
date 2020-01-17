@@ -1,7 +1,13 @@
+#include <LiquidCrystal.h>
+
 int tempPin = 0;
 int index = 0;
 double breakTemp1 = 27.00;
 double breakTemp2 = 30.00;
+
+
+//                BS E  D4 D5  D6  D7
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
 //int state = 0;
 //                R  G  B
@@ -14,7 +20,7 @@ int LED_BLUE = ledPorts[2];
 
 
 double analogVoltageToTemp(int analogVoltage, double A = 0.001167419, double B = 0.000226582, double C = 0.000000142456334686082) {
-    /*
+  /* V_t calculation
      Let r_t thermister resistance, r_0 be resistor resistance
          V_t thermister potential drop, V_0 be total voltage (5V)
      Then V_t = r_t / (r_t + r_0) * V_0
@@ -34,8 +40,9 @@ double analogVoltageToTemp(int analogVoltage, double A = 0.001167419, double B =
    * T = 1 / (A + B ln R + C (ln R)^3)
    * T = 1 / (A + (B + C (ln R)^2) * ln R)
    */
-   
-  /* V_t = r_t / (r_t + r_0) * V_0
+
+  /* V_t to r_t:
+   * V_t = r_t / (r_t + r_0) * V_0
    * V_t / V_0 = r_t / (r_t + r_0)
    * V_0 / V_t = 1 + r_0 / r_t
    * r_0 / r_t = V_0 / V_t - 1
@@ -46,7 +53,7 @@ double analogVoltageToTemp(int analogVoltage, double A = 0.001167419, double B =
    * double res = 10000.0 / (5.0 / voltage - 1);
    * double temperature = 1 / ( A + B * log(res) + C * pow(res, 3) );
    */
-  double temp = 1 / ( A + B * log(10000 / (5 / volt - 1)) + C * pow( log(10000 / ( 5 / volt - 1) ), 3) );
+  double temp = 1 / ( A + B * log(10000.0 / (5.0 / volt - 1)) + C * pow( log(10000 / ( 5.0 / volt - 1 ) ), 3) );
  
   return temp;
 }
@@ -75,12 +82,14 @@ int indBlue(double temp) {
 
 void setup()
 {
-  //lcd.begin(16, 2);
+  lcd.begin(16, 2);
   Serial.begin(9600);
 
   for (int pin : ledPorts) {
     pinMode(pin, OUTPUT);
   }
+
+  
 }
 
 void loop()
@@ -91,6 +100,10 @@ void loop()
 
   // Steinhart-Hart: 1/T = A + B ln R + C (ln R)^3
   //                 T = 1 / (A + (B + (C (ln R)^2)) * ln R)
+  
+  //double res = 10000.0 * ((1024.0 / tempReading - 1));
+  //double tempK1 = 1 / ( 0.001167419 + 0.000226582 * log(res) + 0.000000142456334686082 * pow(log(res), 3) );
+  
   double tempK1 = analogVoltageToTemp(tempReading, 0.001129148, 0.000234125, 0.0000000876741);
   double tempK2 = analogVoltageToTemp(tempReading);
   float tempC1 = tempK1 - 273.15;             // Convert Kelvin to Celcius
@@ -98,20 +111,22 @@ void loop()
   //float tempF = (tempC * 9.0) / 5.0 + 32.0; // Convert Celcius to Fahrenheit
 
   // Display Temperature in C
-  Serial.print(String(index) + "\t(analog): " + String(tempReading) + "\t");
-  Serial.println(String(index) + "(tempC1): " + String(tempC1) + "\t" + "(tempC2):" + String(tempC2));
-
+  Serial.println("----------------------------------------------------");
+  Serial.println(String(index) + "\tanalog: " + String(tempReading) + "\t");
+  Serial.println("\ttempC1: " + String(tempC1) + "\t" + "tempC2:" + String(tempC2));
   
   digitalWrite(LED_RED, indRed(tempC1));
   digitalWrite(LED_GREEN, indGreen(tempC1));
   digitalWrite(LED_BLUE, indBlue(tempC1));
-  
+ 
 
   Serial.println("\tRed: " + String(indRed(tempC1)) + "\tGreen: " + String(indGreen(tempC1)) + "\tBlue: " + String(indBlue(tempC1)));
-  /*
-   * red < breakTemp1 <= green < breakTemp2 <= blue
-    
-  */
+
+  lcd.setCursor(0,0);
+  lcd.print("Temp        C");
+  lcd.setCursor(6,0);
+  lcd.print(tempC1);
+  
   delay(1000);
   index++;
 }
