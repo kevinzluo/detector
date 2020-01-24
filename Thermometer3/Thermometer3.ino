@@ -1,13 +1,13 @@
-#include <LiquidCrystal.h>
+//#include <LiquidCrystal.h>
 
 int tempPin = 0;
 int index = 0;
-double breakTemp1 = 27.00;
-double breakTemp2 = 30.00;
+double breakTemp1 = 0.50;
+double breakTemp2 = 2.00;
 
 
 //                BS E  D4 D5  D6  D7
-LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
+//LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
 //int state = 0;
 //                R  G  B
@@ -82,7 +82,7 @@ int indBlue(double temp) {
 
 void setup()
 {
-  lcd.begin(16, 2);
+  //lcd.begin(16, 2);
   Serial.begin(9600);
 
   for (int pin : ledPorts) {
@@ -102,9 +102,9 @@ void loop()
   //                 T = 1 / (A + (B + (C (ln R)^2)) * ln R)
   
   //double res = 10000.0 * ((1024.0 / tempReading - 1));
-  //double tempK1 = 1 / ( 0.001167419 + 0.000226582 * log(res) + 0.000000142456334686082 * pow(log(res), 3) );
-  
-  double tempK1 = analogVoltageToTemp(tempReading, 0.001129148, 0.000234125, 0.0000000876741);
+  //double lnR = log(resistance);
+  //double tempK1 = 1 / (0.001129148 + (0.000234125 + (0.0000000876741 * lnR * lnR )) * lnR );   
+  double tempK1 = analogVoltageToTemp(tempReading, 0.001229645, 0.000214748, 0.000000191714874203215);
   double tempK2 = analogVoltageToTemp(tempReading);
   float tempC1 = tempK1 - 273.15;             // Convert Kelvin to Celcius
   float tempC2 = tempK2 - 273.15;
@@ -115,18 +115,18 @@ void loop()
   Serial.println(String(index) + "\tanalog: " + String(tempReading) + "\t");
   Serial.println("\ttempC1: " + String(tempC1) + "\t" + "tempC2:" + String(tempC2));
   
-  digitalWrite(LED_RED, indRed(tempC1));
-  digitalWrite(LED_GREEN, indGreen(tempC1));
-  digitalWrite(LED_BLUE, indBlue(tempC1));
+  digitalWrite(LED_RED, indRed(tempC2));
+  digitalWrite(LED_GREEN, indGreen(tempC2));
+  digitalWrite(LED_BLUE, indBlue(tempC2));
  
 
-  Serial.println("\tRed: " + String(indRed(tempC1)) + "\tGreen: " + String(indGreen(tempC1)) + "\tBlue: " + String(indBlue(tempC1)));
-
-  lcd.setCursor(0,0);
-  lcd.print("Temp        C");
-  lcd.setCursor(6,0);
-  lcd.print(tempC1);
-  
+  Serial.println("\tRed: " + String(indRed(tempC2)) + "\tGreen: " + String(indGreen(tempC2)) + "\tBlue: " + String(indBlue(tempC2)));
+  /*
+    lcd.setCursor(0,0);
+    lcd.print("Temp        C");
+    lcd.setCursor(6,0);
+    lcd.print(tempC1);
+  */
   delay(1000);
   index++;
 }
