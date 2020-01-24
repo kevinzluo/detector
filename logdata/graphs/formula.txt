@@ -1,0 +1,7 @@
+\begin{center}
+$T = \left(A + B \ln \left( 10000 \left( \frac{1024}{x} - 1 \right)\right) + C \ln \left(10000 \left( \frac{1024}{x} - 1 \right)\right)^3\right) ^{-1}$ \\
+$A = 0.00122964518209397$ \\
+$B = 0.000214748411193937$ \\
+$C = 0.000000191714874203215$
+
+\end{center}
